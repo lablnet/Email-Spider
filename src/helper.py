@@ -7,7 +7,24 @@ __email__ = "contact@muhammadumerfarooq.me"
 __status__ = "Production"
 
 from urllib.parse import urlparse
+from email_validator import validate_email, EmailNotValidError
 import os
+
+
+# Validate an email adress
+def validate_email_adress(email):
+    try:
+        # Validate.
+        valid = validate_email(email)
+
+        # Update with the normalized form.
+        email = valid.email
+        return True
+
+    except EmailNotValidError as e:
+        # email is not valid, exception message is human-readable
+        print(str(e))
+        return False
 
 
 # Create directory
