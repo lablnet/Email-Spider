@@ -24,13 +24,7 @@ To run the crawler, please type `python3 index.py` and enter a URL to crawl.
 ## Contributions
 There is still a lot of work to do, so feel free to contribute to open `PR`    
  ## License MIT    
-    
-## Support Donate coffee?    
-here is the bitcoin address    
-[![Balance](https://img.balancebadge.io/btc/37x6PA4qtPu2fQnYdW5U7jztYhbchASpBV.svg)](https://img.balancebadge.io/btc/37x6PA4qtPu2fQnYdW5U7jztYhbchASpBV.svg)  
-  
-   ```37x6PA4qtPu2fQnYdW5U7jztYhbchASpBV```    
- Thanks you so much.  
-  
+
+
 ## Disclaimer  
 **I do not accept responsibility for any illegal usage**
