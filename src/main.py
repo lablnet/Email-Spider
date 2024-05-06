@@ -12,6 +12,9 @@ import threading
 from queue import Queue
 from .helper import *
 from .email_spider import EmailSpider
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # Disable processing if we are running in a GitHub Action
 url = "" if os.getenv("GITHUB_ACTIONS") else input("Enter the url to crawl: ")
